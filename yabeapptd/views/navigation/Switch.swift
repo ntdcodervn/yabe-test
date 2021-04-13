@@ -30,7 +30,7 @@ struct Switch: View {
                     endEditing()
                 }
             } else {
-                HomeScreen()
+                MainTabView()
             }
         }
     }
