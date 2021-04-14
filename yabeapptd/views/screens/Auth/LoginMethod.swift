@@ -9,17 +9,21 @@ import SwiftUI
 
 struct LoginMethod: View {
     
+    func resizeV(value: CGFloat) -> CGFloat {
+        
+        return value*UIScreen.screenHeightResize
+    }
     
     var body: some View {
         VStack(content: {
             VStack(content: {
-                Image("logoWithColor")
+                Image("logoWithColor").resizable().frame(width: resizeV(value: 183), height: resizeV(value: 183), alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
 
-            }).frame(width: UIScreen.screenWidth, height: UIScreen.screenHeight*0.35, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/).padding(.top , 50)
+            }).frame(width: UIScreen.screenWidth, height: UIScreen.screenHeight*0.35, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/).padding(.top , resizeV(value: 50))
             
             VStack(content: {
                 ZStack(content: {
-                    Image("polyLoginMethod").resizable().frame(height : 106)
+                    Image("polyLoginMethod").resizable().frame(height : resizeV(value: 106))
                 })
                 HStack(alignment: .center, spacing: nil, content: {
                     NavigationLink(
@@ -31,19 +35,19 @@ struct LoginMethod: View {
                                 }).background(Color.white).cornerRadius(100)
                                                     })
                     
-                }).padding(.top,50)
+                }).padding(.top,resizeV(value: 40))
                 
                 HStack(alignment: .center, spacing: nil, content: {
                    
                     Text("Bằng cách đăng nhập, Bạn đã đồng ý với Chính sách bảo mật và điều khoản sử dụng").font(.system(size: 14)).foregroundColor(Color.white).padding(.leading,20).padding(.trailing, 20).multilineTextAlignment(.center)
                     
-                }).padding(.top,35)
+                }).padding(.top,resizeV(value: 35))
                 
                 HStack(alignment: .center, spacing: nil, content: {
                    
                     Text("Hoặc sử dụng tài khoản mạng xã hội").font(.system(size: 12)).foregroundColor(Color.white).padding(.leading,20).padding(.trailing, 20).multilineTextAlignment(.center)
                     
-                }).padding(.top,35)
+                }).padding(.top,resizeV(value: 35))
                 
                 HStack(alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/, spacing: 30, content: {
                     Button(action: {}, label: {
@@ -64,7 +68,7 @@ struct LoginMethod: View {
                         }
                         ).frame(width: 44, height: 44, alignment:.center).background(Color.white).cornerRadius(50)
                     })
-                }).padding(.top,35)
+                }).padding(.top,resizeV(value: 35))
            
                 
                 Spacer()
