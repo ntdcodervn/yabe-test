@@ -32,11 +32,13 @@ struct BottomTabView: View {
             
             Spacer(minLength: /*@START_MENU_TOKEN@*/0/*@END_MENU_TOKEN@*/)
             
-            Button(action: {
-                self.index = 2
-            }, label: {
-                Image("plus_icon").padding(.all,18)
-            }).background(Image("bg_button-1")).offset(y : -35)
+            NavigationLink(
+                destination: BookScreen(),
+                label: {
+                    HStack( content: {
+                        Image("plus_icon").padding(.all,18)
+                    }).background(Image("bg_button-1")).offset(y : -35)
+                })
             
             Spacer(minLength: /*@START_MENU_TOKEN@*/0/*@END_MENU_TOKEN@*/)
             
@@ -75,9 +77,6 @@ struct MainTabView: View {
                     } else if self.index == 1 {
                         GalleryScreen()
 
-                    } else if self.index == 2 {
-                        BookScreen()
-                        
                     } else if self.index == 3 {
                         NotificationScreen()
 

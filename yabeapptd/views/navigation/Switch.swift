@@ -30,7 +30,13 @@ struct Switch: View {
                     endEditing()
                 }
             } else {
-                MainTabView()
+                NavigationView{
+                    MainTabView().navigationBarTitle("Hidden Title")
+                        .navigationBarHidden(self.isNavigationBarHidden)
+                        .onAppear {
+                            self.isNavigationBarHidden = true
+                        }
+                }
             }
         }
     }
