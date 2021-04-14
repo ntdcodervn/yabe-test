@@ -3,10 +3,14 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7A09832D26275DC100018CFB /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 7A09832C26275DC100018CFB /* SDWebImageSwiftUI */; };
+		7A09833626275E2400018CFB /* Layout1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A09833526275E2400018CFB /* Layout1.swift */; };
+		7A09833E262764EA00018CFB /* Layout2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A09833D262764EA00018CFB /* Layout2.swift */; };
+		7A09834326276A2300018CFB /* Layout3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A09834226276A2300018CFB /* Layout3.swift */; };
 		7A429D8A2622B2630059EB80 /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A429D892622B2630059EB80 /* HomeScreen.swift */; };
 		7A429D8F2622B2C00059EB80 /* LoginMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A429D8E2622B2C00059EB80 /* LoginMethod.swift */; };
 		7A429D952622D6FC0059EB80 /* ScreenSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A429D942622D6FC0059EB80 /* ScreenSize.swift */; };
@@ -56,6 +60,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		203CAAC080B70A33D47EED25 /* Pods-yabeapptdTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-yabeapptdTests.release.xcconfig"; path = "Target Support Files/Pods-yabeapptdTests/Pods-yabeapptdTests.release.xcconfig"; sourceTree = "<group>"; };
+		3B897DE8772747DCC5359A28 /* Pods-yabeapptdTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-yabeapptdTests.debug.xcconfig"; path = "Target Support Files/Pods-yabeapptdTests/Pods-yabeapptdTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5A4C8AEDFD01E4C3431E3A70 /* Pods-yabeapptd.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-yabeapptd.release.xcconfig"; path = "Target Support Files/Pods-yabeapptd/Pods-yabeapptd.release.xcconfig"; sourceTree = "<group>"; };
+		602F2C08DD05CFBC462FF000 /* Pods-yabeapptd.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-yabeapptd.debug.xcconfig"; path = "Target Support Files/Pods-yabeapptd/Pods-yabeapptd.debug.xcconfig"; sourceTree = "<group>"; };
+		7A09833526275E2400018CFB /* Layout1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Layout1.swift; sourceTree = "<group>"; };
+		7A09833D262764EA00018CFB /* Layout2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Layout2.swift; sourceTree = "<group>"; };
+		7A09834226276A2300018CFB /* Layout3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Layout3.swift; sourceTree = "<group>"; };
 		7A429D892622B2630059EB80 /* HomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
 		7A429D8E2622B2C00059EB80 /* LoginMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginMethod.swift; sourceTree = "<group>"; };
 		7A429D942622D6FC0059EB80 /* ScreenSize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenSize.swift; sourceTree = "<group>"; };
@@ -91,6 +102,8 @@
 		7AAFADD62626B62500D6CA74 /* GalleryViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryViewModel.swift; sourceTree = "<group>"; };
 		7AB5124B2626092E00887AC3 /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
 		7AB5125026260FA000887AC3 /* ServiceBottomSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceBottomSheet.swift; sourceTree = "<group>"; };
+		9CF784DF652202F355D7303F /* Pods-yabeapptd-yabeapptdUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-yabeapptd-yabeapptdUITests.release.xcconfig"; path = "Target Support Files/Pods-yabeapptd-yabeapptdUITests/Pods-yabeapptd-yabeapptdUITests.release.xcconfig"; sourceTree = "<group>"; };
+		DCC5F88FDBCDCF422112FB06 /* Pods-yabeapptd-yabeapptdUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-yabeapptd-yabeapptdUITests.debug.xcconfig"; path = "Target Support Files/Pods-yabeapptd-yabeapptdUITests/Pods-yabeapptd-yabeapptdUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +111,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7A09832D26275DC100018CFB /* SDWebImageSwiftUI in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -118,6 +132,29 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0C52C907C2E151656F09C827 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				602F2C08DD05CFBC462FF000 /* Pods-yabeapptd.debug.xcconfig */,
+				5A4C8AEDFD01E4C3431E3A70 /* Pods-yabeapptd.release.xcconfig */,
+				DCC5F88FDBCDCF422112FB06 /* Pods-yabeapptd-yabeapptdUITests.debug.xcconfig */,
+				9CF784DF652202F355D7303F /* Pods-yabeapptd-yabeapptdUITests.release.xcconfig */,
+				3B897DE8772747DCC5359A28 /* Pods-yabeapptdTests.debug.xcconfig */,
+				203CAAC080B70A33D47EED25 /* Pods-yabeapptdTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		7A09833426275E1100018CFB /* LayoutsGallery */ = {
+			isa = PBXGroup;
+			children = (
+				7A09833526275E2400018CFB /* Layout1.swift */,
+				7A09833D262764EA00018CFB /* Layout2.swift */,
+				7A09834226276A2300018CFB /* Layout3.swift */,
+			);
+			path = LayoutsGallery;
+			sourceTree = "<group>";
+		};
 		7A429D7C2622B2170059EB80 /* Auth */ = {
 			isa = PBXGroup;
 			children = (
@@ -159,6 +196,7 @@
 				7A6FD1432621EAED00C1797B /* yabeapptdTests */,
 				7A6FD14E2621EAED00C1797B /* yabeapptdUITests */,
 				7A6FD12B2621EAEB00C1797B /* Products */,
+				0C52C907C2E151656F09C827 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -275,6 +313,7 @@
 		7A6FD1662621EC7F00C1797B /* shared */ = {
 			isa = PBXGroup;
 			children = (
+				7A09833426275E1100018CFB /* LayoutsGallery */,
 				7AB5125026260FA000887AC3 /* ServiceBottomSheet.swift */,
 			);
 			path = shared;
@@ -302,6 +341,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7A6FD1542621EAED00C1797B /* Build configuration list for PBXNativeTarget "yabeapptd" */;
 			buildPhases = (
+				06AC7BC55E32972BEF137BBB /* [CP] Check Pods Manifest.lock */,
 				7A6FD1262621EAEB00C1797B /* Sources */,
 				7A6FD1272621EAEB00C1797B /* Frameworks */,
 				7A6FD1282621EAEB00C1797B /* Resources */,
@@ -311,6 +351,9 @@
 			dependencies = (
 			);
 			name = yabeapptd;
+			packageProductDependencies = (
+				7A09832C26275DC100018CFB /* SDWebImageSwiftUI */,
+			);
 			productName = yabeapptd;
 			productReference = 7A6FD12A2621EAEB00C1797B /* yabeapptd.app */;
 			productType = "com.apple.product-type.application";
@@ -319,6 +362,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7A6FD1572621EAED00C1797B /* Build configuration list for PBXNativeTarget "yabeapptdTests" */;
 			buildPhases = (
+				2563C9CCCBB4F60284CCE4B7 /* [CP] Check Pods Manifest.lock */,
 				7A6FD13C2621EAED00C1797B /* Sources */,
 				7A6FD13D2621EAED00C1797B /* Frameworks */,
 				7A6FD13E2621EAED00C1797B /* Resources */,
@@ -337,6 +381,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7A6FD15A2621EAED00C1797B /* Build configuration list for PBXNativeTarget "yabeapptdUITests" */;
 			buildPhases = (
+				BBB5506435E9C4EB506EAB33 /* [CP] Check Pods Manifest.lock */,
 				7A6FD1472621EAED00C1797B /* Sources */,
 				7A6FD1482621EAED00C1797B /* Frameworks */,
 				7A6FD1492621EAED00C1797B /* Resources */,
@@ -382,6 +427,9 @@
 				Base,
 			);
 			mainGroup = 7A6FD1212621EAEB00C1797B;
+			packageReferences = (
+				7A09832B26275DC100018CFB /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */,
+			);
 			productRefGroup = 7A6FD12B2621EAEB00C1797B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -421,6 +469,75 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		06AC7BC55E32972BEF137BBB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-yabeapptd-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2563C9CCCBB4F60284CCE4B7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-yabeapptdTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BBB5506435E9C4EB506EAB33 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-yabeapptd-yabeapptdUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		7A6FD1262621EAEB00C1797B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -428,6 +545,7 @@
 			files = (
 				7A429D952622D6FC0059EB80 /* ScreenSize.swift in Sources */,
 				7A6FD17E2621F43100C1797B /* Signup.swift in Sources */,
+				7A09833E262764EA00018CFB /* Layout2.swift in Sources */,
 				7AAC83052624A7C9002A9799 /* BookScreen.swift in Sources */,
 				7A77853226235E9B0097C81A /* Extentions.swift in Sources */,
 				7AAC830A2624A7E1002A9799 /* NotificationScreen.swift in Sources */,
@@ -441,8 +559,10 @@
 				7A429D8A2622B2630059EB80 /* HomeScreen.swift in Sources */,
 				7A6FD18D2621F88700C1797B /* ScreenNameConst.swift in Sources */,
 				7A429D8F2622B2C00059EB80 /* LoginMethod.swift in Sources */,
+				7A09833626275E2400018CFB /* Layout1.swift in Sources */,
 				7A6FD1792621F41700C1797B /* Login.swift in Sources */,
 				7AAFADD72626B62500D6CA74 /* GalleryViewModel.swift in Sources */,
+				7A09834326276A2300018CFB /* Layout3.swift in Sources */,
 				7A429D9D2622E08D0059EB80 /* ColorsConst.swift in Sources */,
 				7A6FD1302621EAEB00C1797B /* SceneDelegate.swift in Sources */,
 				7A6FD1882621F61100C1797B /* UserStore.swift in Sources */,
@@ -613,6 +733,7 @@
 		};
 		7A6FD1552621EAED00C1797B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 602F2C08DD05CFBC462FF000 /* Pods-yabeapptd.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -636,6 +757,7 @@
 		};
 		7A6FD1562621EAED00C1797B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5A4C8AEDFD01E4C3431E3A70 /* Pods-yabeapptd.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -659,6 +781,7 @@
 		};
 		7A6FD1582621EAED00C1797B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3B897DE8772747DCC5359A28 /* Pods-yabeapptdTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -681,6 +804,7 @@
 		};
 		7A6FD1592621EAED00C1797B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 203CAAC080B70A33D47EED25 /* Pods-yabeapptdTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -703,6 +827,7 @@
 		};
 		7A6FD15B2621EAED00C1797B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DCC5F88FDBCDCF422112FB06 /* Pods-yabeapptd-yabeapptdUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -723,6 +848,7 @@
 		};
 		7A6FD15C2621EAED00C1797B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9CF784DF652202F355D7303F /* Pods-yabeapptd-yabeapptdUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -781,6 +907,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		7A09832B26275DC100018CFB /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImageSwiftUI";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		7A09832C26275DC100018CFB /* SDWebImageSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7A09832B26275DC100018CFB /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */;
+			productName = SDWebImageSwiftUI;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 7A6FD1222621EAEB00C1797B /* Project object */;
 }
