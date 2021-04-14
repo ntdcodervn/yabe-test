@@ -25,7 +25,9 @@ struct GalleryScreen: View {
                 ScrollView(.horizontal, showsIndicators : false) {
                     HStack {
                         ForEach(ListService, id: \.self){ service in
-                            Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/, label: {
+                            Button(action: {
+                                self.selected = service
+                            }, label: {
                                 Text(service).font(.system(size: 12)).padding(.vertical, 5).padding(.horizontal, 15).foregroundColor(selected == service ? Color.white : ColorConstants.Grey1)
                             }).background(selected == service ? ColorConstants.PrimaryD : ColorConstants.Grey6).cornerRadius(50, antialiased: /*@START_MENU_TOKEN@*/true/*@END_MENU_TOKEN@*/).padding(.leading, 10)
                         }
