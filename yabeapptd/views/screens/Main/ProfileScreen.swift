@@ -14,7 +14,7 @@ struct ProfileScreen: View {
 
             ScrollView(showsIndicators: false) {
                 VStack {
-                    Text("Tôi").bold().font(.system(size: 18)).padding(.top,geometry.safeAreaInsets.top+10)
+                    Text("Tôi").bold().font(.system(size: 18)).padding(.top,geometry.safeAreaInsets.top+20)
                     
                 }
                 

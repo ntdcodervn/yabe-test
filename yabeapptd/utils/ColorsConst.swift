@@ -13,6 +13,8 @@ struct ColorConstants {
     static let LinearR2 = RadialGradient(gradient: Gradient(colors: [Color.init(hex: "#FEA074"), Color.init(hex:"#FEA085")]),center: .center ,startRadius: 20, endRadius: 200)
     static let Grey3 = Color.init(hex: "#828282")
     static let Grey1 = Color.init(hex: "#333333")
+    static let Grey6 = Color.init(hex: "#F2F2F2")
+
 
     static let Disable = Color.init(hex: "#ffc6be")
     static let BlueBGFacebook = Color.init(hex: "#1877F2")
