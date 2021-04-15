@@ -1,0 +1,6 @@
+framework module Pods_yabeapptd {
+  umbrella header "Pods-yabeapptd-umbrella.h"
+
+  export *
+  module * { export * }
+}
