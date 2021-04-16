@@ -17,7 +17,7 @@ class GalleryViewModel: ObservableObject {
     }
     
     func fetchServices() {
-        let url = "https://picsum.photos/v2/list?page=2&limit=40"
+        let url = "https://picsum.photos/v2/list?page=2&limit=20"
         let sesstion = URLSession(configuration: .default)
         sesstion.dataTask(with: URL(string: url)!) { (data, _, _) in
             guard let json = data else {return}

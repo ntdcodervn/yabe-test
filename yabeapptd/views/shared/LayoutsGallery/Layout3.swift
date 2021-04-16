@@ -18,14 +18,14 @@ struct Layout3: View {
         HStack(spacing : 4) {
             
             VStack(spacing : 4) {
-                AnimatedImage(url: URL(string: services[0].download_url)).resizable().frame(width: width/3, height: width/3, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
+                AnimatedImage(url: URL(string: services[0].download_url)).resizable().placeholder(UIImage(systemName: "placeholder")).frame(width: width/3, height: width/3, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
                 
                 if services.count >= 2 {
-                    AnimatedImage(url: URL(string: services[1].download_url)).resizable().frame(width: width/3, height: width/3, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
+                    AnimatedImage(url: URL(string: services[1].download_url)).resizable().placeholder(UIImage(systemName: "placeholder")).frame(width: width/3, height: width/3, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
                 }
             }
             if services.count == 3 {
-                AnimatedImage(url: URL(string: services[2].download_url)).resizable().frame(width: width-(width/3), height: width-(width/3)+5, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
+                AnimatedImage(url: URL(string: services[2].download_url)).resizable().placeholder(UIImage(systemName: "placeholder")).frame(width: width-(width/3), height: width-(width/3)+5, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
             }
         }
     }

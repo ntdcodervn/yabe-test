@@ -14,6 +14,7 @@ struct GalleryScreen: View {
     
     @State var selected = "Thanh lịch"
     
+    
     var body: some View {
         ZStack {
             GeometryReader { geometry in
